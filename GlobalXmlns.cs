@@ -1,2 +1,6 @@
 [assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "TodoApp_Maui")]
-[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "TodoApp_Maui.Pages")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "TodoApp_Maui.Views")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "TodoApp_Maui.ViewModels")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "TodoApp_Maui.Models")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "TodoApp_Maui.Services")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "TodoApp_Maui.Converters")]

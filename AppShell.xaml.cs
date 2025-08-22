@@ -1,9 +1,15 @@
-﻿namespace TodoApp_Maui;
+﻿using TodoApp_Maui.Views;
+
+namespace TodoApp_Maui;
 
 public partial class AppShell : Shell
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public AppShell()
+    {
+        InitializeComponent();
+        
+        // Register routes for navigation
+        Routing.RegisterRoute("addtodo", typeof(AddTodoPage));
+        Routing.RegisterRoute("edittodo", typeof(EditTodoPage));
+    }
 }
